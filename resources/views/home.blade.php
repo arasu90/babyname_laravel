@@ -9,7 +9,7 @@
                         <a href="/babyname/boy">
                             <div class="feature-detail text-center">
                                 <h2 class="feature-title">Boy Name</h2>
-                                <h6 class="feature-info text-uppercase">100+ Names</h6>
+                                <h6 class="feature-info text-uppercase">{{$boyname_count}}+ Names</h6>
                             </div>
                         </a>
                     </div>
@@ -19,7 +19,7 @@
                         <a href="/babyname/girl">
                             <div class="feature-detail text-center">
                                 <h2 class="feature-title">Girl Name</h2>
-                                <h6 class="feature-info text-uppercase">200+ Names</h6>
+                                <h6 class="feature-info text-uppercase">{{$girlname_count}}+ Names</h6>
                             </div>
                         </a>
                     </div>
@@ -50,7 +50,7 @@
                             </svg>
                             <div class="ps-4">
                                 <p class="category-paragraph fw-bold text-uppercase mb-1">Tamil</p>
-                                <p class="category-paragraph m-0">100+ Names</p>
+                                <p class="category-paragraph m-0">{{$ta_count}}+ Names</p>
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                             </svg>
                             <div class="ps-4">
                                 <p class="category-paragraph fw-bold text-uppercase mb-1">Telugu</p>
-                                <p class="category-paragraph m-0">200+ Names</p>
+                                <p class="category-paragraph m-0">0+ Names</p>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                             </svg>
                             <div class="ps-4">
                                 <p class="category-paragraph fw-bold text-uppercase mb-1">Kannada</p>
-                                <p class="category-paragraph m-0">100+ Names</p>
+                                <p class="category-paragraph m-0">0+ Names</p>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@
                             </svg>
                             <div class="ps-4">
                                 <p class="category-paragraph fw-bold text-uppercase mb-1">English</p>
-                                <p class="category-paragraph m-0">200+ Names</p>
+                                <p class="category-paragraph m-0">{{$en_count}}+ Names</p>
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@
                             </svg>
                             <div class="ps-4">
                                 <p class="category-paragraph fw-bold text-uppercase mb-1">Malayalam</p>
-                                <p class="category-paragraph m-0">200+ Names</p>
+                                <p class="category-paragraph m-0">0+ Names</p>
                             </div>
                         </div>
                     </div>
@@ -107,7 +107,7 @@
                             </svg>
                             <div class="ps-4">
                                 <p class="category-paragraph fw-bold text-uppercase mb-1">Hindi</p>
-                                <p class="category-paragraph m-0">214+ Names</p>
+                                <p class="category-paragraph m-0">0+ Names</p>
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
                             </svg>
                             <div class="ps-4">
                                 <p class="category-paragraph fw-bold text-uppercase mb-1">Hindu</p>
-                                <p class="category-paragraph m-0">233+ Names</p>
+                                <p class="category-paragraph m-0">0+ Names</p>
                             </div>
                         </div>
                     </div>
@@ -131,7 +131,7 @@
                             </svg>
                             <div class="ps-4">
                                 <p class="category-paragraph fw-bold text-uppercase mb-1">Musliem</p>
-                                <p class="category-paragraph m-0">392+ Names</p>
+                                <p class="category-paragraph m-0">0+ Names</p>
                             </div>
                         </div>
                     </div>
@@ -142,7 +142,7 @@
                             </svg>
                             <div class="ps-4">
                                 <p class="category-paragraph fw-bold text-uppercase mb-1">Chritian</p>
-                                <p class="category-paragraph m-0">393+ Names</p>
+                                <p class="category-paragraph m-0">0+ Names</p>
                             </div>
                         </div>
                     </div>

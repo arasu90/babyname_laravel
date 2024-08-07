@@ -71,7 +71,7 @@
                     <h5 class=" fw-bold mb-4">Contact Us</h5>
                     <ul class="menu-list list-unstyled">
                         <li class="menu-item mb-2">
-                            <a href="#" class="footer-link">babynames@babyname.com</a>
+                            <a href="#" class="footer-link">{{ env('CONTACTUS_MAIL')}}</a>
                         </li>
                     </ul>
                 </div>
@@ -84,7 +84,7 @@
     <div class="container">
         <div class="row py-3">
             <div class="col-md-6 copyright">
-                <p>© 2024 babyname List. All rights reserved.</p>
+                <p>© 2024 {{ env('APP_NAME')}}. All rights reserved.</p>
             </div>
             <div class="col-md-6 text-md-end">
             </div>
