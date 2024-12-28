@@ -14,11 +14,11 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 mb-5 mb-md-0">
-                    <div class="feature-item py-2 rounded-4">
-                        <a href="/babyname/girl">
+                <div class="col-md-3 col-sm-6 mb-5 mb-md-0 ">
+                    <div class="feature-item py-2  rounded-4">
+                        <a href="/babyname/girl" class="namecard" >
                             <div class="feature-detail text-center">
-                                <h2 class="feature-title">Girl Name</h2>
+                                <h2 class="feature-title ">Girl Name</h2>
                                 <h6 class="feature-info text-uppercase">{{$girlname_count}}+ Names</h6>
                             </div>
                         </a>
@@ -31,10 +31,37 @@
 
 @section('content')
 <section id="category">
+<div>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9791999313618463"
+     crossorigin="anonymous"></script>
+<!-- Horizontal Ads -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9791999313618463"
+     data-ad-slot="9576937304"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9791999313618463"
+     crossorigin="anonymous"></script>
+<!-- SquareADS -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9791999313618463"
+     data-ad-slot="1810495483"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
         <div class="container ">
             <div class="mt-4 d-md-flex justify-content-between align-items-center">
                 <div>
-                    <p class="text-secondary ">Pick your favourite Name</p>
+                    <p class="text-secondary ">Pick your favourite Name Laravel {{ App::VERSION() }}  </p>
                     <h2 class="display-6 fw-semibold">Popular Laungages</h2>
                 </div>
                 <div class="mt-4 mt-md-0">

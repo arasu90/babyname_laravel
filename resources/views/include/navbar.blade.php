@@ -32,37 +32,6 @@
                         <a href="/contactus" class="nav-link mx-2 {{ request()->is('contactus') ? 'active' : '' }}">Contact</a>
                     </li>
                 </ul>
-                <div class="d-none d-lg-flex align-items-center">
-                    <ul class="d-flex  align-items-center list-unstyled m-0">
-                        <li>
-                            <a href="account.html" class="ms-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px">
-                                    <use href="#user-circle" />
-                                </svg> </a>
-                        </li>
-                        <li>
-                            <a href="wishlist.html" class="ms-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px">
-                                    <use href="#heart" />
-                                </svg> </a>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="#" class="ms-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart" aria-controls="offcanvasCart">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px">
-                                    <use href="#shopping-bag" />
-                                </svg> </a>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="ms-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSearch" aria-controls="offcanvasSearch">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px">
-                                    <use href="#search" />
-                                </svg> </a>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
             </div>
         </div>
     </div>
